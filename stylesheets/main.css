@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: auto;
+	background-color: #333333;
+	margin: 20px;
+}
+
+div.layout {
+	margin: 4px;
+	padding: 18px;
+	width: 990px;
+	clear: both;
+	float: left;
+}
+
+#keyboard {
+	height: 234px;
+}
+
+#bindingbox {
+	width: 540px;
+	min-height: 216px;
+	height: auto;
+}
+
+div[data-id^="binditem"] {
+	z-index: 2;
+	margin: 2px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#infobox {
+	font-size: 0.9em;
+	clear: none;
+	width: 404px;
+	height: 216px;
+}
+
+#infobox div {
+	clear: both;
+	width: 100%;
+	vertical-align: top;
+	height: auto;
+}
+
+#infobox div p {
+	clear: none;
+	float: left;
+}
+
+#infobox div p:first-child {
+	text-align: right;
+	font-weight: bold;
+	width: 22%;
+}
+
+#infobox div p:last-child {
+	float: right;
+	width: 76%;
+	height: auto;
+}
+
+.keyinfo p { height: 60px; }
+.bindingname p { height: 20px; }
+.bindingcommand p { height: 40px; }
+.description p { height: 80px; }
+
+input[type="button"] {
+	cursor: pointer;
+}
+
+#loadbutton { /* invisible button for the file loading */
+	width: 0;
+	visibility: hidden;
+}

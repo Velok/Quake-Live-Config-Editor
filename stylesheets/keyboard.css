@@ -1,0 +1,100 @@
+#keyboard li {
+	font: 65%/1.5 Verdana, Sans-Serif;
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 1px;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	cursor: default;
+}
+
+#keyboard .keytype02 { width: 38px; }
+#keyboard .keytype03 { width: 50px; }
+#keyboard .keytype04 { width: 62px; }
+#keyboard .keytype05 { width: 68px; }
+#keyboard .keytype06 { width: 98px; }
+#keyboard .keytype07 { width: 242px; }
+
+#keyboard .keytype08 {
+	height: 68px;
+	line-height: 68px;
+}
+
+#keyboard .keytype09 {;
+	width: 38px;
+	height: 68px;
+	line-height: 68px;
+	left: 498px;
+	bottom: 180px;
+}
+
+#keyboard .keytype10 {
+	z-index: 1;
+	width: 11px;
+	border-color: #000000;
+	border-right-color: #ffffff;
+	margin-right: 40px;
+}
+
+#keyboard li[class^="spacer"] {
+	opacity: 0;
+	height: 14px;
+}
+
+#keyboard li div {
+	position: absolute;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#keyboard .spacer2 { width: 14px; }
+#keyboard .spacer3 { width: 182px; }
+#keyboard .spacer4 { width: 50px; }
+
+#keyboard .lineStart { clear: left; }
+#keyboard .lineEnd { margin-right: 0; }
+
+#keyboard .offset1 { top: -36px; }
+
+#keyboard .offset2 {
+	left: -36px;
+	top: -108px;
+}
+
+#keyboard .offset3 {
+	left: 18px;
+	top: -108px;
+}
+
+#keyboard .unbindable { /* grey */
+	background-color: #888888;
+}
+
+#keyboard .share1 { /* green */
+	background-color: #3adf00;
+}
+#keyboard .share1.unbindable {
+	background-color: #298a08;	
+}
+
+#keyboard .share2 { /* orange */
+	background-color: #ff8000;
+}
+#keyboard .share2.unbindable {
+	background-color: #b45f04;	
+}
+
+#keyboard .share3 { /* yellow */
+	background-color: #ffff00;
+}
+#keyboard .share3.unbindable {
+	background-color: #aeb404;	
+}
